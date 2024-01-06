@@ -1,0 +1,32 @@
+﻿Database,Dialogue Database
+Author,
+Version,
+Description,
+
+---Actors---
+Name,Description
+Player,
+NPC,
+
+---Conversations---
+
+Conversation 1,V_Morning
+Description,
+entrytag,Actor,Conversation,Description,Dialogue Text
+NPC_1_1,NPC,V_Morning,,"Hello, are you awake?"
+Player_1_2,Player,V_Morning,,NO!
+
+Conversation 2,V_Meeting
+Description,
+entrytag,Actor,Conversation,Description,Dialogue Text
+Player_2_1,Player,V_Meeting,,I am going to have to get to my meeting soon.
+NPC_2_4,NPC,V_Meeting,,"Hey all, lets do a quick sync this morning!"
+Player_2_5,Player,V_Meeting,,"The meeting can wait for a few minutes, I need to pet my dog."
+Player_2_6,Player,V_Meeting,,Sheesh...
+
+Conversation 3,PlayerBarks
+Description,
+entrytag,Actor,Conversation,Description,Dialogue Text
+NPC_3_1,NPC,PlayerBarks,,I wonder if I can have an early lunch
+NPC_3_2,NPC,PlayerBarks,,Did you hear that?
+NPC_3_3,NPC,PlayerBarks,,My puppy is so beautiful
